@@ -1,0 +1,19 @@
+{
+  "name": "email-verification-api-client-example",
+  "version": "1.0.0",
+  "description": "Пример работы с API «Проверка почты» Atlorium: валидация email, чистка списка рассылки, детект спам-ловушек",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "tsx index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
